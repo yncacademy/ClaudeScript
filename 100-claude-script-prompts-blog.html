@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>100 Claude Script Prompts That Hook Every Viewer | Sifu Yik</title>
+  <meta name="description" content="I packed 100 Claude prompts I actually use for Reels, YouTube, UGC, VSLs, sales, launches, hooks, and CTAs. Fill the brackets, paste, iterate." />
+  <meta name="author" content="Sifu Yik" />
+  <style>
+    :root {
+      --ink: #1a1210;
+      --cream: #f4efe6;
+      --cream-2: #efe7db;
+      --coral: #e07a4c;
+      --coral-d: #c45e34;
+      --text: #2c2622;
+      --muted: #6e665e;
+      --line: #ddd4c6;
+      --white: #fffaf4;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .kicker {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--coral);
+      font-weight: 700;
+      margin: 0 0 12px;
+    }
+    h1 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: clamp(32px, 6vw, 48px);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin: 0 0 16px;
+    }
+    h1 em {
+      font-style: normal;
+      color: var(--coral);
+    }
+    .byline {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      color: var(--muted);
+      margin: 0 0 32px;
+    }
+    .byline a { color: var(--coral-d); text-decoration: none; }
+    .lede {
+      font-size: 20px;
+      line-height: 1.5;
+      margin: 0 0 24px;
+    }
+    p { margin: 0 0 18px; }
+    h2 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+      margin: 56px 0 8px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+    }
+    h2 .num { color: var(--coral); margin-right: 8px; }
+    .cat-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 28px;
+    }
+    .toc {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin: 28px 0 36px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .toc h3 {
+      margin: 0 0 12px;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .toc ol {
+      margin: 0;
+      padding-left: 20px;
+      columns: 1;
+    }
+    .toc a { color: var(--text); text-decoration: none; }
+    .toc a:hover { color: var(--coral-d); }
+    .prompt {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 20px 16px;
+      margin: 0 0 16px;
+    }
+    .prompt .id {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 700;
+      color: var(--coral);
+      font-size: 13px;
+      margin: 0 0 8px;
+    }
+    .prompt .body {
+      margin: 0 0 12px;
+      font-size: 16.5px;
+    }
+    .why {
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+      font-size: 15px;
+      color: #5c4336;
+      background: var(--cream-2);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin: 0;
+    }
+    .why strong {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-style: italic;
+      font-weight: 600;
+    }
+    .note {
+      background: var(--white);
+      border-left: 4px solid var(--coral);
+      padding: 14px 18px;
+      margin: 0 0 28px;
+    }
+    footer.end {
+      margin-top: 56px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+    .cta {
+      display: inline-block;
+      background: var(--coral);
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 999px;
+      margin-top: 8px;
+    }
+    @media (min-width: 640px) {
+      .toc ol { columns: 2; gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+<article class="wrap">
+  <p class="kicker">Prompt pack · @sifuyik</p>
+  <h1>100 Claude <em>Script Prompts</em> That Hook Every Viewer</h1>
+  <p class="byline">By <a href="https://x.com/sifuyik">Sifu Yik</a> · Fill the [brackets], paste into Claude, ask for 3 variations</p>
+
+  <p class="lede">I do not collect prompts for fun. I collect them so I can ship. This is the pack I use when I need a Reel tonight, a YouTube outline this week, a UGC batch for ads, or a close that does not sound like “follow for more.”</p>
+
+  <p>Every line below is written the way I brief Claude for my own content. Fill the [brackets]. Paste it in. Then ask for 3 variations of anything you like. Action beats collection — every time.</p>
+
+  <div class="note">
+    <strong>How I run these:</strong> one prompt, one job. Do not stack five roles into one chat. If the first draft is 80% right, I say “keep the structure, make it sound like I talk, give me 3 hooks.” That second pass is where the usable script appears.
+  </div>
+
+  <nav class="toc" aria-label="Table of contents">
+    <h3>The 10 categories</h3>
+    <ol>
+      <li><a href="#reels">Reels Scripts</a></li>
+      <li><a href="#youtube">YouTube Scripts</a></li>
+      <li><a href="#ugc">UGC Scripts</a></li>
+      <li><a href="#story">Storytelling</a></li>
+      <li><a href="#vsl">VSL Scripts</a></li>
+      <li><a href="#sales">Sales Scripts</a></li>
+      <li><a href="#launch">Launch Scripts</a></li>
+      <li><a href="#edu">Educational Scripts</a></li>
+      <li><a href="#hooks">Scroll-Stop Hooks</a></li>
+      <li><a href="#cta">CTA Scripts</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="reels"><span class="num">01</span>Reels Scripts</h2>
+  <p class="cat-sub">30-second scripts built for retention</p>
+
+  <div class="prompt"><p class="id">001</p><p class="body">You are my short-form retention partner. Write 6 opening lines for a reel about [topic] — each under 8 words — using a different 2026 trigger: stop-scrolling-if identity, curiosity gap, contrarian claim, specific number first, mid-action confession, and incomplete visual instruction. Then rank them by predicted 1-second hold.</p><p class="why"><strong>Why I use this:</strong> The first second is the whole game. Forcing six different triggers stops me from falling in love with one weak opener.</p></div>
+
+  <div class="prompt"><p class="id">002</p><p class="body">Write a 30-second reel script for [niche] using Hook-Retain-Reward. Open on the mistake [audience] makes this week. Deliver 3 value beats with a visual change every 2–3 seconds. End on a save-worthy one-liner they can screenshot. Include on-screen text for muted viewers on every beat.</p><p class="why"><strong>Why I use this:</strong> Reels are watched muted more than people admit. If the text carries the story, retention survives bad speakers and silent commutes.</p></div>
+
+  <div class="prompt"><p class="id">003</p><p class="body">Turn this source into a 30-second reel: [paste blog, thread, or notes]. Keep only the 3 most surprising points. Write a hook that teases the biggest one without revealing it, then pay it off in beat 3. Mark a pattern break at second 12 so the middle does not sag.</p><p class="why"><strong>Why I use this:</strong> Long content dies in the feed unless I cut it to the three moments that actually surprise. The mid-video break stops the 10-second drop.</p></div>
+
+  <div class="prompt"><p class="id">004</p><p class="body">You are a retention editor. Rewrite this reel so no spoken sentence exceeds 10 words and a new visual, text card, or camera move hits every 3 seconds: [paste script]. Flag any line that sounds like an intro, a thank-you, or a brand slogan and cut it.</p><p class="why"><strong>Why I use this:</strong> Long sentences feel like lectures. Short lines plus visual change every 3 seconds is how the algorithm reads “this person is still watching.”</p></div>
+
+  <div class="prompt"><p class="id">005</p><p class="body">Write a talking-head reel about [topic] in my voice. Here are 3 of my past captions for rhythm: [paste]. Match my cadence and opinions. Ban generic influencer phrases like “game changer,” “let’s dive in,” and “without further ado.” Output spoken lines plus caption text separately.</p><p class="why"><strong>Why I use this:</strong> Voice match is the difference between a script I will film and a script I will rewrite at 11pm. Cloning rhythm beats cloning vocabulary.</p></div>
+
+  <div class="prompt"><p class="id">006</p><p class="body">Build a 7-episode reel series on [topic]. For each episode give me: title, 8-word hook, 3 talking points, one on-screen payoff the viewer can screenshot, and a cliffhanger that only resolves in the next episode. Make episode 1 the most shareable so the series can start from a cold viewer.</p><p class="why"><strong>Why I use this:</strong> Series train the algorithm to send the same person back. Cliffhangers create incomplete stories, and incomplete stories get followed.</p></div>
+
+  <div class="prompt"><p class="id">007</p><p class="body">You are a short-form scriptwriter. Write a 30-second reel on [topic]. Structure: pattern-interrupt hook under 8 words, 3 rapid value points, curiosity CTA. Output as a table with columns: timecode, voiceover, on-screen text, b-roll or gesture. Design it so a muted viewer still gets the full idea.</p><p class="why"><strong>Why I use this:</strong> Tables force production thinking. If I can see the cut, I film faster and I stop ad-libbing the middle into mush.</p></div>
+
+  <div class="prompt"><p class="id">008</p><p class="body">Write a POV reel for [audience] living through [painful situation]. Line one is the exact 2am thought they will not say out loud. Keep the product [product] unnamed until the last 4 seconds, and let it enter as the quiet fix — never as a pitch. Add one honest limitation so it feels like a friend, not an ad.</p><p class="why"><strong>Why I use this:</strong> POV plus delayed product is how UGC energy leaks into organic content. Naming the product late keeps the first 20 seconds native.</p></div>
+
+  <div class="prompt"><p class="id">009</p><p class="body">Take this list of tips and turn it into a fast-cut countdown reel where #1 is the best tip and the hook promises it without spoiling it: [paste tips]. Each tip gets 4 seconds, one visual, and one line of on-screen text. End with “save this before you forget #1.”</p><p class="why"><strong>Why I use this:</strong> Countdowns create a finish line. Putting the best tip last is old advice — promising it first and delivering last is what holds the watch.</p></div>
+
+  <div class="prompt"><p class="id">010</p><p class="body">You are my hook doctor. Here is the reel: [paste script]. Diagnose why the first 3 seconds lose people, using specific language (slow context, weak pronoun, buried payoff, no visual tension). Rewrite the opening 4 ways and explain the psychology of each in one sentence.</p><p class="why"><strong>Why I use this:</strong> Most scripts fail before the value starts. A diagnosis stops me from rewriting the body when the patient is already dead at second two.</p></div>
+
+  <h2 id="youtube"><span class="num">02</span>YouTube Scripts</h2>
+  <p class="cat-sub">Long-form structure that keeps watch time</p>
+
+  <div class="prompt"><p class="id">011</p><p class="body">You are a YouTube retention strategist. Write a full outline for a 10-minute video titled [title]: cold open in the first 7 seconds, payoff stated by second 15, roadmap by second 40, no channel intro until second 50, then 4 chapters with a pattern break every 90 seconds, and an end-screen pitch that bridges into [next video].</p><p class="why"><strong>Why I use this:</strong> YouTube now weights watch-time-per-impression harder than raw views. This skeleton spends the first 50 seconds earning the click the thumbnail already sold.</p></div>
+
+  <div class="prompt"><p class="id">012</p><p class="body">Write the first 60 seconds of a YouTube video about [topic]. Open mid-action. Confirm the viewer clicked the right video in the first 5 seconds. Raise stakes or curiosity from second 5 to 15. Deliver the first mini-payoff by second 30. Preview the rest of the map by second 45. No “hey guys” at any point.</p><p class="why"><strong>Why I use this:</strong> The first 30 seconds is a second sale. People clicked a promise. If I delay the payoff for a logo and a handshake, they leave and the graph never recovers.</p></div>
+
+  <div class="prompt"><p class="id">013</p><p class="body">Expand this short script into an 8-minute YouTube video: [paste]. For every point add one example, one short story, and one objection a smart skeptic would raise. Mark timestamps where my face should cut to b-roll, a screen recording, or a still so the picture changes before attention dies.</p><p class="why"><strong>Why I use this:</strong> Talking-head fatigue is a retention tax. Expanding a reel only works if I add proof and picture changes, not just more sentences.</p></div>
+
+  <div class="prompt"><p class="id">014</p><p class="body">You are a documentary writer. Script a YouTube video on [topic] as a story with a protagonist, a ticking clock, rising stakes, one twist, and a lesson — not a lecture. Give me narration line by line, and label every line as HOOK, RISE, TWIST, PAYOFF, or LESSON so I can trim by story function.</p><p class="why"><strong>Why I use this:</strong> Lectures get paused. Stories get finished. Labeling functions lets me cut the lecture parts without killing the plot.</p></div>
+
+  <div class="prompt"><p class="id">015</p><p class="body">Write 10 title + thumbnail-text pairs for a video about [topic]. Titles under 55 characters. Thumbnail text under 4 words. Each pair must be payable by the video — no fake drama. For each pair, write the first spoken sentence that proves the click was honest.</p><p class="why"><strong>Why I use this:</strong> Clickbait that the video cannot pay off trains people to bounce. Pairing title, thumbnail, and first line keeps packaging and content in the same contract.</p></div>
+
+  <div class="prompt"><p class="id">016</p><p class="body">Create a reusable skeleton for my weekly [format] videos: hook question, 12-second context, 3 named segments, mid-roll soft CTA, recap card, next-episode tease. Fill the skeleton once for [topic] so I can see the template working, not just described.</p><p class="why"><strong>Why I use this:</strong> Same skeleton every week makes filming faster and trains returning viewers. Familiar structure is not boring if the payoff inside it changes.</p></div>
+
+  <div class="prompt"><p class="id">017</p><p class="body">You are a watch-time analyst. Here is my script: [paste]. Find every moment a viewer might click away. Name the reason in plain English (reset, lecture tone, no next promise, repeated point). Rewrite each transition so it re-hooks attention before the next section starts.</p><p class="why"><strong>Why I use this:</strong> People do not leave at random. They leave at the first sentence that feels like a new beginning with no reason to stay.</p></div>
+
+  <div class="prompt"><p class="id">018</p><p class="body">Script a 6-minute tutorial on [process] where every step starts with the result it produces, not the instruction. Add a “most people get this wrong” moment at step 3 with the exact mistake and the 10-second fix. Close with a checklist the viewer can pause on.</p><p class="why"><strong>Why I use this:</strong> Result-first steps keep tutorial viewers oriented. The intentional mistake at step 3 is a pattern break that resets a dying retention curve.</p></div>
+
+  <div class="prompt"><p class="id">019</p><p class="body">Write a YouTube intro for [video topic] in 3 energies — storyteller, teacher, provocateur — using the same facts. Keep each intro under 45 seconds. After each version, tell me which audience it will attract and which it will repel so I can pick on purpose.</p><p class="why"><strong>Why I use this:</strong> Energy is positioning. Testing three intros costs nothing in Claude and saves me from locking a channel tone I cannot sustain.</p></div>
+
+  <div class="prompt"><p class="id">020</p><p class="body">Turn this rambling transcript into a tight YouTube script that keeps my phrasing but cuts 40% of the words: [paste transcript]. Do not sanitize my opinions. Mark every cut with a one-word reason (repeat, throat-clear, tangent, hedge) so I can accept or reject the edit.</p><p class="why"><strong>Why I use this:</strong> Talking is how I think. Editing is how the audience stays. Showing the reason for each cut keeps my voice while removing the fat.</p></div>
+
+  <h2 id="ugc"><span class="num">03</span>UGC Scripts</h2>
+  <p class="cat-sub">Authentic creator-style product content</p>
+
+  <div class="prompt"><p class="id">021</p><p class="body">Write a 30-second UGC script for [product] that sounds like a voice note to a friend, not an ad. Include natural pauses, one “honestly...” confession, one small flaw I noticed, and zero marketing words (no “revolutionary,” “must-have,” “game-changing”). End on what I actually do with it at 7am.</p><p class="why"><strong>Why I use this:</strong> Believability converts colder traffic than polish. A named flaw is the fastest way to make praise feel earned.</p></div>
+
+  <div class="prompt"><p class="id">022</p><p class="body">You are a UGC creator who has filmed 500 ads. Script a “get ready with me” where [product] appears as part of a real routine and is not named until the final line. Timestamp the product appearance. Give me 2 alternate final lines — one soft, one direct — so I can test.</p><p class="why"><strong>Why I use this:</strong> Native placement beats product-first talking heads on Meta and TikTok. Delayed naming keeps the first 20 seconds from tripping the “this is an ad” reflex.</p></div>
+
+  <div class="prompt"><p class="id">023</p><p class="body">Write 3 selfie-style UGC hooks for [product]: one starts with a complaint, one with a confession, one with “I was not going to post this.” Each hook under 8 words. Then write the next 12 seconds that prove the hook so the body does not betray the open.</p><p class="why"><strong>Why I use this:</strong> Hooks without proof are clickbait. Pairing the open with the immediate proof is how I stop testers from bouncing at second four.</p></div>
+
+  <div class="prompt"><p class="id">024</p><p class="body">Script a UGC unboxing of [product] where I react to 3 specific details a real buyer would notice — texture or weight, actual size versus the photo, and one honest flaw — then hit the payoff moment. Include what my hands do on camera for each beat.</p><p class="why"><strong>Why I use this:</strong> Hands and specifics beat adjectives. Shoppers decide with their eyes. Showing size and a flaw is more persuasive than a speech about quality.</p></div>
+
+  <div class="prompt"><p class="id">025</p><p class="body">You are a skeptical buyer. Write a testimonial script for [product] that starts with why I almost did not buy it, what I tested it against, and the one result that changed my mind. Keep the praise narrower than the doubt so it stays credible.</p><p class="why"><strong>Why I use this:</strong> Doubt first is a trust sequence. If I skip the skepticism, warm audiences nod and cold audiences scroll.</p></div>
+
+  <div class="prompt"><p class="id">026</p><p class="body">Write a “day in my life” UGC script for [audience] where [product] solves one small real moment — not the whole day. Timestamp each scene for the editor. The product appears in only one scene. Everything else is context that makes that scene feel true.</p><p class="why"><strong>Why I use this:</strong> One real moment outperforms a full-day commercial. Context makes the product look found, not planted.</p></div>
+
+  <div class="prompt"><p class="id">027</p><p class="body">Create a 7-day comparison script: “I tested [product] against [competitor type].” Give honest pros for both. Let a measurable result decide. Include what to show on screen each day and a final verdict line that a lawyer would not flinch at.</p><p class="why"><strong>Why I use this:</strong> Side-by-sides feel fair, so they travel further. Honest cons for my own product make the win look discovered instead of assigned.</p></div>
+
+  <div class="prompt"><p class="id">028</p><p class="body">Script a street-interview or stitch-style UGC on a common myth in [niche]. The creator asks a blunt question, hears the myth, corrects it kindly, and demos [product] as proof. Write both voices with different speech patterns so it does not sound like one actor playing two parts.</p><p class="why"><strong>Why I use this:</strong> Street-interview energy is native in 2026 feeds. Kind correction plus a demo beats a smug lecture and keeps comments from turning into a fight.</p></div>
+
+  <div class="prompt"><p class="id">029</p><p class="body">Write a UGC script for [product] that answers one real comment in full: “[paste objection].” Address it head-on in the first line. Show the proof on screen instead of describing it. Close with an invitation, not a command.</p><p class="why"><strong>Why I use this:</strong> Comment-led ads are pre-qualified. The objector already told me the sale I have to win.</p></div>
+
+  <div class="prompt"><p class="id">030</p><p class="body">You are casting 3 creator personas — time-poor parent, student on a budget, corporate 9-to-5 — each selling [product] inside their actual day. For each persona write a 4-line creative brief plus a 25-second script with a different hook family so the ads do not clone each other.</p><p class="why"><strong>Why I use this:</strong> Creative fatigue kills winners. Three worlds and three hook families give me a test matrix instead of one actor saying the same thing louder.</p></div>
+
+  <h2 id="story"><span class="num">04</span>Storytelling</h2>
+  <p class="cat-sub">Narratives that make people feel something</p>
+
+  <div class="prompt"><p class="id">031</p><p class="body">Tell the story of how I built [business/project] as a hero’s journey in exactly 150 words. Put the lowest moment in the middle, not the opening. Name one ally, one mistake, and one decision. End on the lesson, not the revenue number.</p><p class="why"><strong>Why I use this:</strong> Middle-low structure keeps the opening from sounding like a pity pitch. Word limits force the only scenes that matter.</p></div>
+
+  <div class="prompt"><p class="id">032</p><p class="body">You are a story editor. Take this dry case study and rewrite it as a narrative with a named character, a ticking clock, and a moment of doubt: [paste case study]. Keep every fact. Invent no metrics. Mark the clock, the doubt, and the turn in brackets.</p><p class="why"><strong>Why I use this:</strong> Case studies fail because they are resumes. Clocks and doubt turn a resume into a scene people finish.</p></div>
+
+  <div class="prompt"><p class="id">033</p><p class="body">Write a 60-second story script that starts at the worst moment — “[describe moment]” — then rewinds to show how I got there. End one beat after the resolution, not on a slogan. Add a visual cue for the rewind so the cut is obvious on camera.</p><p class="why"><strong>Why I use this:</strong> Starting at the crash creates instant stakes. Rewinding answers the only question the viewer has: how did you survive that.</p></div>
+
+  <div class="prompt"><p class="id">034</p><p class="body">Turn this customer result into a story told from THEIR mouth, in THEIR words, including the exact moment they almost quit: [paste result and details]. Do not make them sound like a brochure. Give me two versions: 20 seconds and 60 seconds.</p><p class="why"><strong>Why I use this:</strong> Buyer-voiced stories transfer belief better than founder-voiced stories. The almost-quit moment is where the listener sees themselves.</p></div>
+
+  <div class="prompt"><p class="id">035</p><p class="body">Give me 10 on-camera story seeds from this bio: [paste bio]. For each: the story in one line, the wound it came from, and the lesson it carries for [audience]. Flag the 3 I should film first because they create the most recognition.</p><p class="why"><strong>Why I use this:</strong> People do not follow advice. They follow a person who has been in the room they are currently stuck in.</p></div>
+
+  <div class="prompt"><p class="id">036</p><p class="body">You are a speechwriter. Turn this lesson — [lesson] — into a 90-second story with a setup, a surprising turn, and a callback ending that reuses the opening line with new meaning. Mark the callback so I hit the same words on purpose.</p><p class="why"><strong>Why I use this:</strong> Callbacks make endings feel designed. When the first line returns changed, the viewer feels the lesson instead of being told it.</p></div>
+
+  <div class="prompt"><p class="id">037</p><p class="body">Rewrite this story so the audience is the main character. Change “I” to “you” and make every scene something [audience] has actually lived: [paste story]. If a scene is too specific to me, replace it with a parallel they would recognize.</p><p class="why"><strong>Why I use this:</strong> Second person collapses distance. Recognition is the fastest form of trust I can buy with words.</p></div>
+
+  <div class="prompt"><p class="id">038</p><p class="body">Write a brand origin story for [brand] in 3 depths: 30 words for a website hero, 100 words for the About page, 250 words for a founder post. Same facts, same soul, three distances. No myth-making that I cannot defend on a podcast.</p><p class="why"><strong>Why I use this:</strong> One origin, three lengths, keeps the brand coherent. If I invent drama I cannot defend, the story becomes a liability.</p></div>
+
+  <div class="prompt"><p class="id">039</p><p class="body">You are a tension engineer. Here is my story: [paste]. Add 3 open loops in the first half and close them in reverse order in the second half. Show me the exact sentence where each loop opens and the exact sentence where it shuts.</p><p class="why"><strong>Why I use this:</strong> Open loops are why people finish paragraphs. Closing them in reverse order feels like a designed ending instead of a list of facts.</p></div>
+
+  <div class="prompt"><p class="id">040</p><p class="body">Turn [ordinary process or moment] into a story using only “but” and “therefore” — no “and then.” Every beat must contradict or consequence the last one. Keep it under 180 words so I can say it on camera without notes.</p><p class="why"><strong>Why I use this:</strong> And-then is a diary. But/therefore is cause and effect, which is the only kind of story that feels like it is going somewhere.</p></div>
+
+  <h2 id="vsl"><span class="num">05</span>VSL Scripts</h2>
+  <p class="cat-sub">Video sales letters that convert cold traffic</p>
+
+  <div class="prompt"><p class="id">041</p><p class="body">You are a VSL specialist. Write the first 30 seconds of a VSL for [product] targeting [audience]: pattern-interrupt statement, problem agitation, a 4-second credibility flash, and the promise of a named mechanism — no product name yet. Every sentence must earn the next one.</p><p class="why"><strong>Why I use this:</strong> Cold traffic does not owe me a pitch. If I name the product before I name the mechanism, I look like every other ad they skipped.</p></div>
+
+  <div class="prompt"><p class="id">042</p><p class="body">Act as a direct-response copywriter. Write a 90-second VSL for [product] using PAS. Include 2 objection handlers, one proof placement, and a scarcity CTA that is true. Mark the emotional beat of each section in brackets so I can perform it, not just read it.</p><p class="why"><strong>Why I use this:</strong> PAS still works because it follows how doubt actually moves. Performance notes stop a flat read from killing a good argument.</p></div>
+
+  <div class="prompt"><p class="id">043</p><p class="body">Write the unique-mechanism section of a VSL for [product]: name the real reason [audience] fails (and why it is not their fault), name our method in 2 words, and explain it with one analogy a 12-year-old would get. Then write the one-line contrast against the old way.</p><p class="why"><strong>Why I use this:</strong> People do not buy products. They buy a new reason the old effort failed. A two-word name makes the method feel like a thing they can own.</p></div>
+
+  <div class="prompt"><p class="id">044</p><p class="body">You are a VSL editor. Here is my script: [paste]. Cut 30% without losing a persuasion beat. Flag the 3 weakest claims and rewrite each as a typical-result statement I can actually stand behind. Show the word count before and after.</p><p class="why"><strong>Why I use this:</strong> Length is not authority. Tightening plus claim-hygiene is how a VSL survives both short attention and platform review.</p></div>
+
+  <div class="prompt"><p class="id">045</p><p class="body">Script the proof section for [product] as a narrative, not a list: weave 3 testimonials, 1 statistic, and 1 demonstration so each proof answers a specific unspoken doubt. Label the doubt each proof kills. No stacked talking heads.</p><p class="why"><strong>Why I use this:</strong> Lists of praise feel rented. A proof story that answers a doubt feels like evidence arriving at the right time.</p></div>
+
+  <div class="prompt"><p class="id">046</p><p class="body">Write a 3-minute VSL for [high-ticket offer] using the epiphany bridge: my old belief, the moment it broke, the new framework, and what that framework makes possible for [audience]. Keep the pitch inside the last 25 seconds.</p><p class="why"><strong>Why I use this:</strong> High-ticket buyers need a belief change before a cart. If I pitch before the epiphany, I am asking for money from the old worldview.</p></div>
+
+  <div class="prompt"><p class="id">047</p><p class="body">Create the offer-stack section: present [main product] plus 3 bonuses where each bonus kills one specific objection. Give each bonus a name, a dollar value I can justify, and a one-line reason it exists. End with the stack total versus the real price.</p><p class="why"><strong>Why I use this:</strong> Bonuses are not clutter. They are objection assassins. Naming them makes the stack feel designed instead of padded.</p></div>
+
+  <div class="prompt"><p class="id">048</p><p class="body">You are a compliance-aware copywriter. Rewrite this VSL to keep the persuasion but remove risky income or health claims, replacing them with typical-result framing and process claims: [paste]. List every claim you changed and why.</p><p class="why"><strong>Why I use this:</strong> A banned ad is a zero. Process and typical-result language lets me keep tension without writing a check to a regulator.</p></div>
+
+  <div class="prompt"><p class="id">049</p><p class="body">Write 5 closing sequences for [product]: hard deadline, soft invitation, fear of staying stuck, future-pacing, and identity-based. Same offer, five emotional exits. Keep each close under 20 seconds so I can swap them in tests.</p><p class="why"><strong>Why I use this:</strong> The offer rarely fails. The exit feeling does. Five closes let me test emotion without rebuilding the whole letter.</p></div>
+
+  <div class="prompt"><p class="id">050</p><p class="body">Script a 60-second mini-VSL for cold Meta traffic on [product]: hook, one pain, one mechanism, one proof, one CTA. Every sentence earns the next. Nothing else. Add on-screen text that works with sound off.</p><p class="why"><strong>Why I use this:</strong> Cold paid social will not sit through an 8-minute letter. The mini-VSL is the whole argument compressed to the length the feed will tolerate.</p></div>
+
+  <h2 id="sales"><span class="num">06</span>Sales Scripts</h2>
+  <p class="cat-sub">DMs, calls and pitches that close</p>
+
+  <div class="prompt"><p class="id">051</p><p class="body">Write a 5-message Instagram DM sequence for someone who commented [keyword] on my post. Message 1 delivers the freebie. Message 2 asks one qualifying question. Messages 3–4 add a useful distinction. Message 5 bridges to [offer] without a hard pitch. No “just circling back.”</p><p class="why"><strong>Why I use this:</strong> Comment-to-DM only works if the first gift is real. Qualification before pitch protects my calendar and the lead’s patience.</p></div>
+
+  <div class="prompt"><p class="id">052</p><p class="body">You are a sales coach. Script my answer to “it is too expensive” for [offer] in 3 tones: empathetic reframe, ROI math with conservative numbers, and takeaway close. Each under 60 words, spoken language, no sarcasm. Include one question at the end of each.</p><p class="why"><strong>Why I use this:</strong> Price is rarely the real objection. Three tones let me match the person in front of me instead of reciting a speech they can smell.</p></div>
+
+  <div class="prompt"><p class="id">053</p><p class="body">Write a discovery-call open for [service] that sets agenda, disarms pressure, and gets the prospect talking about their situation inside 90 seconds. Give me my exact questions in order, plus a line I use if they try to make me pitch first.</p><p class="why"><strong>Why I use this:</strong> Whoever talks first about the problem owns the frame. An agenda plus a deflect line stops me from auditioning for a job I have not diagnosed.</p></div>
+
+  <div class="prompt"><p class="id">054</p><p class="body">Turn my offer into a 30-second elevator pitch: who I help, the outcome, the mechanism, the proof, the invitation. Offer details: [paste]. Write 2 versions — one for a stranger at an event, one for a warm DM — with different proof weights.</p><p class="why"><strong>Why I use this:</strong> Same offer, different rooms. Strangers need a sharper who. Warm leads need a sharper next step.</p></div>
+
+  <div class="prompt"><p class="id">055</p><p class="body">Script a follow-up for a lead who went silent after the proposal — 3 versions: day 3 check-in, day 7 value-add with a useful asset, day 14 respectful close-the-loop. No guilt. Each message under 70 words. The day 14 version leaves the door open without hovering.</p><p class="why"><strong>Why I use this:</strong> Silence is information, not rudeness. Value-add follow-ups keep me in the deal without becoming the reminder they mute.</p></div>
+
+  <div class="prompt"><p class="id">056</p><p class="body">You are a pricing psychologist. Script how I present 3 packages for [service] on a call so the middle option feels inevitable. Include the exact transition sentences between tiers and one question I ask after each tier before I move on.</p><p class="why"><strong>Why I use this:</strong> People do not choose the middle because it is middle. They choose it when the cheap tier feels incomplete and the expensive tier feels optional.</p></div>
+
+  <div class="prompt"><p class="id">057</p><p class="body">Write a 45-second voice-note reply to a warm lead who asked “how does it work?” about [offer]. Sound human. Structure invisible: empathize, explain in 3 steps, invite one small next step. Include the first 4 spoken words so I do not freeze when I hit record.</p><p class="why"><strong>Why I use this:</strong> Voice notes convert because they feel expensive to send. A hidden structure keeps me brief without sounding like a brochure being read aloud.</p></div>
+
+  <div class="prompt"><p class="id">058</p><p class="body">Script my response to “I need to think about it” that surfaces the real objection without cornering them. Give me a 3-question ladder, each deeper than the last, plus a graceful exit if they truly need time. No fake deadlines.</p><p class="why"><strong>Why I use this:</strong> Think-about-it is a fog machine. A question ladder turns fog into a real concern I can answer — or a real no I can respect.</p></div>
+
+  <div class="prompt"><p class="id">059</p><p class="body">You are a B2B SDR. Write a 4-touch sequence for [ICP] about [offer]: LinkedIn connect note, DM, email, breakup email. Every touch gives a usable insight before it asks for anything. Keep each touch under 80 words. No “hope you are well.”</p><p class="why"><strong>Why I use this:</strong> Ask-first outreach is ignored. Insight-first outreach is forwarded. The breakup email often gets the only honest reply in the sequence.</p></div>
+
+  <div class="prompt"><p class="id">060</p><p class="body">Turn these 5 objections from my last launch into a pre-emptive on-camera FAQ I deliver before the pitch: [paste objections]. For each: the objection in their words, my 20-second answer, and the proof I should put on screen.</p><p class="why"><strong>Why I use this:</strong> Answering objections after the pitch feels defensive. Answering them before feels like leadership, and it removes the comments that would have killed the close.</p></div>
+
+  <h2 id="launch"><span class="num">07</span>Launch Scripts</h2>
+  <p class="cat-sub">Content sequences that build demand</p>
+
+  <div class="prompt"><p class="id">061</p><p class="body">You are my launch strategist. Script a 7-day teaser sequence for [product]: each day gets a format, a hook, and a reveal level from 1 (mystery) to 7 (open cart). Do not dump the whole offer on day 3. Protect the audience from teaser fatigue by changing format every day.</p><p class="why"><strong>Why I use this:</strong> Mystery without a schedule is just silence. A reveal ladder builds demand without burning the list on six days of the same post.</p></div>
+
+  <div class="prompt"><p class="id">062</p><p class="body">Write the launch announcement for [product] using problem, story, proof, pitch. 90 seconds spoken. The pitch lives only in the last 15 seconds. Give me on-screen text for the proof beat so the claim is visible even if audio fails.</p><p class="why"><strong>Why I use this:</strong> Most announcements start with the product and lose the room. Proof before pitch makes the last 15 seconds feel like a conclusion, not an ambush.</p></div>
+
+  <div class="prompt"><p class="id">063</p><p class="body">Script 3 “behind the build” videos for [product] launch week: the mistake that almost killed it, the detail nobody will notice that cost days, and the first real user reaction. Each under 45 seconds. No fake struggle.</p><p class="why"><strong>Why I use this:</strong> Process stories create ownership before the cart opens. People buy what they watched being made if the struggle was specific.</p></div>
+
+  <div class="prompt"><p class="id">064</p><p class="body">Write my “cart closes tonight” script in 2 versions: one for people who watched everything and did not buy (name the likely hesitation), one for people just arriving (compress the pitch into 25 seconds). No manufactured panic. Use only scarcity I can prove.</p><p class="why"><strong>Why I use this:</strong> Closing-day content has two audiences. Treating them as one either bores the warm or confuses the cold.</p></div>
+
+  <div class="prompt"><p class="id">065</p><p class="body">You are an email copywriter. Turn this launch video into a 5-email sequence with the same narrative arc and rising urgency: [paste script]. Subject lines under 6 words. Each email has one job and one link. Email 4 is launch day. Email 5 is last call.</p><p class="why"><strong>Why I use this:</strong> Video watchers and inbox readers are not the same person. The email sequence restages the story for people who will never press play.</p></div>
+
+  <div class="prompt"><p class="id">066</p><p class="body">Script a live launch webinar open: the first 10 minutes deliver a real quick win on [topic] before any selling. Structure it so the win itself proves the paid method works. Include the line I use to transition from teaching into the offer without the room feeling baited.</p><p class="why"><strong>Why I use this:</strong> The quick win is the sales letter. If they got a result for free, the paid version stops feeling theoretical.</p></div>
+
+  <div class="prompt"><p class="id">067</p><p class="body">Write a waitlist page plus announcement script pair for [product]. Same promise. The page optimizes for email capture with one field and one button. The video optimizes for shares with a hook a stranger would send to a friend. Keep claims identical so the two assets do not contradict.</p><p class="why"><strong>Why I use this:</strong> Waitlists die when the page and the video tell two different stories. One promise, two jobs, keeps the list clean.</p></div>
+
+  <div class="prompt"><p class="id">068</p><p class="body">Create an 8-frame launch-day Instagram story sequence for [product]: countdown, social proof, FAQ, demo clip, founder note, objection crush, and 2 CTAs. Script the overlay text for each frame in 8 words or less. Note the sticker or button on each frame.</p><p class="why"><strong>Why I use this:</strong> Stories convert warm attention. Short overlays plus mixed proof keep a launch day from looking like eight links in a row.</p></div>
+
+  <div class="prompt"><p class="id">069</p><p class="body">You are a positioning expert. Script how I announce [product] to an audience that has seen 100 similar products. Lead with what we deliberately do not do, then the one thing we do differently. Ban category clichés. End with who this is not for.</p><p class="why"><strong>Why I use this:</strong> In a crowded category, subtraction is the signal. Saying who it is not for is how the right buyers lean in.</p></div>
+
+  <div class="prompt"><p class="id">070</p><p class="body">Write my post-launch debrief for the audience: real numbers, what flopped, what sold, one process change I will make, framed to build trust for the NEXT launch. No humblebrag. If a number is private, say so instead of inventing a vague win.</p><p class="why"><strong>Why I use this:</strong> Debriefs are brand equity. Honest numbers make the next waitlist easier than any teaser sequence I could write.</p></div>
+
+  <h2 id="edu"><span class="num">08</span>Educational Scripts</h2>
+  <p class="cat-sub">Teach so it sticks and gets shared</p>
+
+  <div class="prompt"><p class="id">071</p><p class="body">You are a master teacher. Script a 60-second explainer of [complex concept] for [audience] using one everyday analogy, one number that actually shocks, and one “try this today” action that takes under 5 minutes. No jargon unless you immediately translate it.</p><p class="why"><strong>Why I use this:</strong> Analogy plus a shocking number plus a tiny action is how a concept survives the swipe. Teaching without a next step is trivia.</p></div>
+
+  <div class="prompt"><p class="id">072</p><p class="body">Write a “most people think X, actually Y” script about [topic]. Prove Y with one concrete example. Then give the 3-step correct way. Stay kind to people who believed X — they are my future commenters, not my punchline.</p><p class="why"><strong>Why I use this:</strong> Correction content spreads when it protects the viewer’s ego. Kindness keeps the share from feeling like a dunk.</p></div>
+
+  <div class="prompt"><p class="id">073</p><p class="body">Turn this documentation into a 90-second tutorial with zero jargon — every technical term replaced by what it does, not what it is called: [paste doc]. Add a mistake to avoid at the riskiest step. Output as spoken line plus on-screen label.</p><p class="why"><strong>Why I use this:</strong> Docs explain systems. Videos explain outcomes. Swapping names for jobs is the whole translation.</p></div>
+
+  <div class="prompt"><p class="id">074</p><p class="body">Script a 5-part beginner series on [skill]. List the screenshot-worthy win for each episode first, then write episode 1 in full with hook, 3 steps, win, and a tease into episode 2. Wins must be visible in under 10 minutes of viewer effort.</p><p class="why"><strong>Why I use this:</strong> Beginners stay for wins they can prove to themselves. Designing the win before the lesson stops me from teaching theory they cannot use tonight.</p></div>
+
+  <div class="prompt"><p class="id">075</p><p class="body">You are a curriculum designer. Break [big topic] into 10 micro-lessons of 45 seconds. Sequence them so each lesson requires the last one. For each: hook, core point, demo idea. Give the series a simple name people can ask for in comments.</p><p class="why"><strong>Why I use this:</strong> Named sequences get requested. Requested sequences get followed. Forty-five seconds is long enough to teach and short enough to finish.</p></div>
+
+  <div class="prompt"><p class="id">076</p><p class="body">Write a myth-busting script covering the top 3 myths in [niche]. For each: why smart people believe it, the evidence against it, and what to do instead. No strawmen. No mocking. End with the one myth I used to believe myself.</p><p class="why"><strong>Why I use this:</strong> Smart-people framing is respect. Confessing my own old myth makes the rest of the takedown feel like a map, not a verdict.</p></div>
+
+  <div class="prompt"><p class="id">077</p><p class="body">Script a “watch me do it live” teaching video for [process]. Narrate WHY at every step, not just what. Plant one intentional mistake, catch it on camera, and fix it. Include the line I say when I catch it so it feels designed, not sloppy.</p><p class="why"><strong>Why I use this:</strong> Live process plus an on-camera save is more trusted than a perfect take. People learn from the repair more than from the clean version.</p></div>
+
+  <div class="prompt"><p class="id">078</p><p class="body">You are an expert simplifier. Explain [concept] three times in one script: 10 words, 50 words, then 150 words with an example. Label the layers so I can cut for Shorts, Reels, or YouTube without rewriting.</p><p class="why"><strong>Why I use this:</strong> One idea, three depths, is a content system. I film once and cut three platform lengths from the same thinking.</p></div>
+
+  <div class="prompt"><p class="id">079</p><p class="body">Write a comparison lesson: [option A] vs [option B] for [audience]. Structure by decision criteria, not feature lists. End with “choose A if…, choose B if…” and refuse to fence-sit. Name the person each option is wrong for.</p><p class="why"><strong>Why I use this:</strong> Feature lists create confusion. Criteria create decisions. A clean “if” ending is what gets screenshotted and sent to a partner.</p></div>
+
+  <div class="prompt"><p class="id">080</p><p class="body">Turn my answer to this frequent question into a teaching script with a memorable name for the method, so viewers can ask for it by name: [paste answer]. Give me 5 candidate names and pick one. Write the 40-second version and the 3-minute version.</p><p class="why"><strong>Why I use this:</strong> Named methods become intellectual property in the comments. If they can ask for it, they can come back for it.</p></div>
+
+  <h2 id="hooks"><span class="num">09</span>Scroll-Stop Hooks</h2>
+  <p class="cat-sub">First 3 seconds that stop the thumb</p>
+
+  <div class="prompt"><p class="id">081</p><p class="body">Generate 20 scroll-stopping hooks for [topic]: 5 curiosity gaps, 5 bold claims, 5 direct callouts of [audience], 5 pattern interrupts. Max 10 words each. No emojis. No questions that can be answered with yes or no. Put the most interesting word first.</p><p class="why"><strong>Why I use this:</strong> Volume plus constraint is how I find a hook I would actually say. Front-loading the interesting word wins the first silent frame.</p></div>
+
+  <div class="prompt"><p class="id">082</p><p class="body">You are a hook analyst. Here are my last 10 hooks and their 1-second and 3-second hold rates: [paste]. Find the pattern in what held. Write 10 new hooks that double down on that pattern and 5 that test an adjacent pattern so I do not overfit.</p><p class="why"><strong>Why I use this:</strong> My data beats generic hook lists. Doubling down on a proven pattern is leverage. Adjacent tests stop the pattern from going stale.</p></div>
+
+  <div class="prompt"><p class="id">083</p><p class="body">Rewrite this weak hook 10 ways without changing the video underneath: “[paste hook].” Rank them by predicted stopping power. Explain why #1 wins in one sentence of psychology, not taste.</p><p class="why"><strong>Why I use this:</strong> The video is often fine. The door is not. Ten rewrites of the same door is cheaper than filming ten new rooms.</p></div>
+
+  <div class="prompt"><p class="id">084</p><p class="body">Write 10 mid-story hooks for [topic] — as if the viewer walked in on the most dramatic second. No context in the first line. After each hook, write the 6-word clarifying line that lands at second 3 so confusion does not become a swipe.</p><p class="why"><strong>Why I use this:</strong> Mid-story opens create unfinished business. The second-3 clarifier is what stops intrigue from turning into “I don’t get it.”</p></div>
+
+  <div class="prompt"><p class="id">085</p><p class="body">Give me 10 negative hooks for [niche] — stop doing X, you are wasting Y, the worst advice about Z — each backed by a reason I can defend in the video. Ban cruelty. The target is the advice, not the person following it.</p><p class="why"><strong>Why I use this:</strong> Loss language stops thumbs. Defensible reasons keep comments from becoming a pile-on I have to mop up.</p></div>
+
+  <div class="prompt"><p class="id">086</p><p class="body">You are a copy chief. Turn each of these 5 flat topics into 3 hooks using pain + timeframe + twist: [paste topics]. The twist must be a belief, not an adjective. Mark the pain, the clock, and the twist in each line.</p><p class="why"><strong>Why I use this:</strong> Pain gets recognition. A timeframe creates urgency. A belief-twist is the reason they cannot predict the next sentence.</p></div>
+
+  <div class="prompt"><p class="id">087</p><p class="body">Write 10 question hooks for [topic] where the viewer physically cannot answer without watching. Ban yes/no. Ban questions I answer in the same sentence. Each question should create a knowledge gap the body of the video actually closes.</p><p class="why"><strong>Why I use this:</strong> Unanswered relevant questions are hard to swipe past. If I answer in the hook, I paid the curiosity tax for nothing.</p></div>
+
+  <div class="prompt"><p class="id">088</p><p class="body">Generate 10 hooks that use a specific number from my niche data, and make that number the first word on screen: [paste stats]. After each hook, write the one-line source or method so I do not get called out in comments.</p><p class="why"><strong>Why I use this:</strong> A number first creates a fact-check pause, and that pause is watch time. A visible method keeps the number from looking invented.</p></div>
+
+  <div class="prompt"><p class="id">089</p><p class="body">Write 5 hook + b-roll pairs for [topic] where the picture contradicts the words. The tension between what I say and what I show is the hook. Describe the first frame in enough detail that an editor could pull the clip.</p><p class="why"><strong>Why I use this:</strong> Visual contradiction is a pattern interrupt that works with sound off. The brain stays to resolve the mismatch.</p></div>
+
+  <div class="prompt"><p class="id">090</p><p class="body">You are a psycholinguist. Explain the 5 hook structures that exploit loss aversion, curiosity gap, social proof, novelty, and self-reference. Then write one of each for [topic], under 10 words, with the bias named in brackets so I can test by family.</p><p class="why"><strong>Why I use this:</strong> If I know which bias I am using, I can test families instead of random lines. Random hooks do not compound. Families do.</p></div>
+
+  <h2 id="cta"><span class="num">10</span>CTA Scripts</h2>
+  <p class="cat-sub">Endings that turn a watch into a move</p>
+
+  <div class="prompt"><p class="id">091</p><p class="body">Write 10 CTA lines for [goal: follow / comment / save / DM] that give a reason tied to this video’s value — no naked “follow for more.” Topic: [topic]. Each line under 14 words. Put the reason before the ask in at least 5 of them.</p><p class="why"><strong>Why I use this:</strong> Asks without reasons feel like toll booths. A reason tied to the video they just finished is the only CTA that does not break the spell.</p></div>
+
+  <div class="prompt"><p class="id">092</p><p class="body">You are a conversion writer. Script a 10-second comment-gate CTA: comment [word], get [freebie]. Make the freebie sound specific and finished — not “a free guide.” Describe the first screen they will receive so the reward feels real.</p><p class="why"><strong>Why I use this:</strong> Vague lead magnets get ignored. Specific, finished assets get comments because the viewer can picture the file landing in their DMs.</p></div>
+
+  <div class="prompt"><p class="id">093</p><p class="body">Write 5 soft mid-video CTAs that do not break the lesson on [topic]. Disguise each as a natural aside. None should last more than 4 seconds. Mark the exact second they should sit in a 45-second video.</p><p class="why"><strong>Why I use this:</strong> End CTAs miss people who leave early. A 4-second aside in the body catches them while they still care.</p></div>
+
+  <div class="prompt"><p class="id">094</p><p class="body">Script the last 15 seconds so the video ends on an open question that drives comments, then stack a follow CTA on top of that question. Topic: [topic]. The question must be opinion-based, not trivia, so replies have a place to land.</p><p class="why"><strong>Why I use this:</strong> Questions create comments. Comments create distribution. Stacking follow on a live question uses one ending for two jobs.</p></div>
+
+  <div class="prompt"><p class="id">095</p><p class="body">Give me a CTA test kit for the same video about [topic]: 2 urgency endings, 2 curiosity endings, 2 identity endings. Predict which wins for a cold audience and why. Keep each ending under 12 seconds so I can swap them without recutting the body.</p><p class="why"><strong>Why I use this:</strong> I do not need a new video to learn what ending works. Six endings and one body is a real experiment, not a vibe.</p></div>
+
+  <div class="prompt"><p class="id">096</p><p class="body">You are a funnel architect. Write the full chain: on-video CTA to comment [word], the auto-DM that arrives, and the link message. Each step re-sells the next click in one line. No “hey!” openers. Include a 24-hour follow-up if they comment but do not tap.</p><p class="why"><strong>Why I use this:</strong> Most comment gates leak between DM and link. Re-selling each click is how I stop paying for comments that never become clicks.</p></div>
+
+  <div class="prompt"><p class="id">097</p><p class="body">Rewrite these 5 CTAs to remove every friction word (just, maybe, if you want, feel free) and add one concrete detail to each: [paste CTAs]. Show before and after. Explain the friction word you killed.</p><p class="why"><strong>Why I use this:</strong> Hedge words give people a polite exit. Specifics give them a picture of the next 10 seconds of their life.</p></div>
+
+  <div class="prompt"><p class="id">098</p><p class="body">Write a “save this” CTA that proves the future value of the save. Name the exact future moment [audience] will need this video again. Topic: [topic]. Give me a 6-word overlay and a spoken line that do not repeat each other.</p><p class="why"><strong>Why I use this:</strong> Saves are delayed intent. Naming the future moment turns a vague “save for later” into a file they can find when the problem returns.</p></div>
+
+  <div class="prompt"><p class="id">099</p><p class="body">Script 3 fifteen-second story CTAs that move video viewers to [offer]: poll-first, countdown-first, and proof-first. Write overlay text, spoken line if any, and the sticker used. Keep the offer name identical across all three.</p><p class="why"><strong>Why I use this:</strong> Stories are where warm viewers finish the job. Three entry feelings let me match how they arrived — curious, late, or almost convinced.</p></div>
+
+  <div class="prompt"><p class="id">100</p><p class="body">You are a retention closer. Write an end-screen that makes clicking the next video feel like continuing this one. Give me a bridge sentence plus a curiosity gap from [current video] into [next video]. Ban “thanks for watching.” Ban a separate topic jump.</p><p class="why"><strong>Why I use this:</strong> End screens fail when they feel like a new show. A bridge plus an open loop keeps session time inside my channel instead of sending them back to the feed.</p></div>
+
+  <footer class="end">
+    <h2>That’s all 100. Now go use one.</h2>
+    <p>Pick one prompt. Run it today. Post what it makes for you. I collect frameworks for a living — and I still lose to the person who ships.</p>
+    <p>New prompt packs, AI workflows, and growth systems — every week.</p>
+    <p><a class="cta" href="https://x.com/sifuyik">Follow @sifuyik</a></p>
+    <p style="margin-top:28px;color:#6e665e;font-size:13px;">© 2026 Sifu Yik · @sifuyik · All rights reserved.</p>
+  </footer>
+</article>
+</body>
+</html>
